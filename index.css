@@ -1,0 +1,270 @@
+.main-bg-container-total {
+    display: flex;
+}
+
+.main-container-second {
+    background-color: #121E48;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+ol {
+    padding: 0px;
+}
+
+.orderlist-items {
+    padding: 0px;
+    margin: 40px 0px 0px 10px;
+
+}
+
+.logo-image-sizes-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.logo-image-sizes {
+    background-size: cover;
+    height: 30px;
+    width: 100px;
+}
+
+.financial-statement {
+    position: relative;
+    top: 30px;
+}
+
+
+.list-order-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.list-items {
+    color: #767676;
+    font-family: "Gilroy-Regular";
+    font-size: 20px;
+}
+
+.pararagrph-element {
+    color: #ffffff;
+    font-style: "Gilroy-Regular";
+    font-size: 20px;
+}
+
+.special-character {
+    color: #1CD2AD;
+    font-style: "Gilroy-Regular";
+    font-size: 20px;
+}
+
+.box-last-way-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    right: 30px;
+}
+
+.image-way {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+}
+
+.seaerch-icon {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.search-container{
+    border-radius: 30px;
+}
+
+.input-section {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.input-section::placeholder {
+    font-size: 16px;
+}
+
+.financial-page {
+    color: #ffffff;
+    font-style: "Gilroy-Regular";
+    font-size: 20px;
+}
+
+.box-container-market-value {
+    width: 203px;
+    height: 116px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-container-part-section{
+    display: flex;
+    gap: 20px;
+}
+
+.sales-last-down {
+    margin: 0px;
+}
+
+.heading-box-model {
+    font-weight: 600;
+}
+
+.heading-box-model-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px 0px 10px;
+}
+
+.font-icon {
+    font-size: 35px;
+}
+
+.font-icon-container {
+    position: relative;
+    top: 80px;
+}
+
+.table-main-container {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+table {
+    width: 80vw;
+}
+
+th {
+    border-bottom: 1px solid #000;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+td {
+    color: #767676;
+    font-family: "Gilroy-Regular";
+    font-size: 18px;
+}
+
+th,td {
+    padding: 20px;
+    text-align: left;
+}
+.thread-contanet {
+    border-bottom: 1px solid #000;
+}
+
+.table-up-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.span-content-box {
+    font-style: "Gilroy-SemiBoldItalic";
+    font-weight: 600;
+    font-size: 18px;
+    margin: 20px;
+    color: #1C1C28;
+}
+
+.button {
+    background-color: #1CD2AD;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0px solid #000;
+
+}
+
+.card-section-main {
+    width: 374px;
+    height: 260px;
+    overflow-y: scroll;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+}
+
+.event-section-heading {
+    margin: 0px 0px 0px 10px;
+}
+
+.image-container {
+    border-radius: 50%;
+    background-size: cover;
+    width: 58px;
+    height: 58px;
+}
+
+.card-name-person {
+    font-weight: 700;
+    font-size: 15px;
+    font-style: "Gilroy-SemiBoldItalic";
+    margin: 0px;
+}
+
+.paragraph-card-container {
+    color: #767676;
+    font-family: "Gilroy-Regular";
+    font-size: 15px;
+    margin: 0px;
+}
+
+.paragraph-card-container-special {
+    color: #1E88E5;
+    font-family: "Gilroy-Regular";
+    font-size: 15px;
+    margin: 0px;
+}
+
+.inside-card-section {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    justify-self: center;
+    margin: 10px;
+}
+
+.side-bar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media all and (max-width:767px) {
+    .side-bar-container {
+        display:none;
+    }
+
+    .box-container-part-section {
+        flex-direction: column;
+    }
+
+    .box-last-way-container {
+        display: none;
+    }
+}
